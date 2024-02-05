@@ -266,6 +266,8 @@ img {
 .hero {
     padding-top: 50px;
     padding-bottom: 50px;
+    background-color: #8e91ca;
+    display: flex;
 }
 
 .my-img {
@@ -275,12 +277,14 @@ img {
 
 .title {
     color: #2E2F42;
-        text-align: center;
-        font-size: 60px;
-        font-weight: 700;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        padding: 10px;
+    text-align: end;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    padding: 10px;
+    display: flex;
+    align-items: end;
 }
 
 .about {
@@ -317,10 +321,13 @@ img {
 .address-contacts {}
 
 .address-contacts-list {
-    font-size: 22px;
+    gap: 15px;
 }
 
-.address-contacts-item {}
+.address-contacts-item {
+    font-size: 22px;
+    gap: 15px;
+}
 
 .address-contacts-link {}
 
@@ -349,9 +356,13 @@ img {
 
 .education-title {}
 
-.education-list {}
+.education-list {
+    
+}
 
-.education-item {}
+.education-item {
+    font-size: 22px;
+}
 
 .projects {}
 
