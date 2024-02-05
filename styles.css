@@ -112,9 +112,6 @@ img {
     padding-bottom: 25px;
 }
 
-.about-skills {
-}
-
 .skills-tittle {
     background-color: #c3c5e1;
 }
@@ -132,33 +129,14 @@ img {
     margin-bottom: 25px;
 }
 
-.skills-list:nth-child(odd) {
-    
-}
-
-
-
-/* .skills-item:nth-child(odd) {
-    background-color: #cdcdef;
-} */
-
 .address-title {
     background-color: #c3c5e1;
-}
-.address-contacts {
-
 }
 
 .address-contacts-list {
     display: flex;
     flex-direction: column;
     align-items: start;
-
-}
-
-.list {}
-
-.address-contacts-item {
 
 }
 
@@ -177,12 +155,6 @@ img {
 
 .address-contacts-link:focus {
     color: #404bbf;
-}
-
-.link {}
-
-.experience {
-
 }
 
 .experience-title {
@@ -245,10 +217,6 @@ img {
     margin-bottom: 10px;
 }
 
-.projects-item {}
-
-.projects-link {}
-
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
@@ -286,14 +254,6 @@ img {
     align-items: end;
 }
 
-.about {
-
-}
-
-.about-me {}
-
-.about-title {}
-
 .section-title {
     text-align: center;
     font-size: 26px;
@@ -303,21 +263,9 @@ img {
     font-size: 22px;
 }
 
-.about-skills {}
-
-.skills-tittle {}
-
 .skills-list {
     font-size: 22px;
 }
-
-.list {}
-
-.skills-item {}
-
-.address-title {}
-
-.address-contacts {}
 
 .address-contacts-list {
     gap: 15px;
@@ -327,17 +275,6 @@ img {
     font-size: 22px;
     gap: 15px;
 }
-
-.address-contacts-link {}
-
-.link {}
-
-.achievement 
-.experience {
-
-}
-
-.experience-title {}
 
 .experience-text {
     font-size: 22px;
@@ -349,32 +286,11 @@ img {
     flex-direction: column;
 }
 
-.experience-item {}
-
-.education {}
-
-.education-title {}
-
-.education-list {
-    
-}
-
 .education-item {
     font-size: 22px;
 }
 
-.projects {}
-
-.projects-title {}
-
 .projects-list {
     font-size: 22px;
 }
-
-.projects-item {}
-
-.projects-text {}
-
-.projects-link {}
-
 }
